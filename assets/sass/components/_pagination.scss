@@ -1,0 +1,27 @@
+.paginacion {
+    @include mi__centrado;
+    height: 135px;
+    background-color: $platinum;
+}
+
+.pag {
+    border: 1px solid $lightGray!important;
+    background-color: $white!important;
+    &-ant {
+        border-top-left-radius: 1rem!important;
+        border-bottom-left-radius: 1rem!important;
+        color: $nickel !important;
+    }
+    &-sig {
+        border-top-right-radius: 1rem!important;
+        border-bottom-right-radius: 1rem!important;
+        color: $nickel !important;
+    }
+    &-num {
+        color: $nickel !important;
+    }
+    &-active {
+        color: $white !important;
+        background-color: $nickel;
+    }
+}

@@ -1,0 +1,57 @@
+    /*
+.articulo__autor {
+    padding: 60px 0;
+    &-retrato {
+        text-align: center;
+    }
+    &-info {
+        text-align: center;
+    }
+    &-retrato__imagen {
+        border-radius: 100%;
+        width: 130px;
+        height: auto;
+    }
+    &-link {
+        display: block;
+        text-decoration: none;
+        color: $rudyPink;
+        font-size: 1.25rem;
+        //Para que quede uno al lado del otro//
+         :hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.articulo__autor {
+    &-titulo {
+        @include playfair__bold;
+        text-align: left!important;
+        color: $eerieBlack;
+    }
+}
+
+}
+
+@media (min-width:768px) {
+    .articulo__autor-retrato__imaagen {
+        width: 180px;
+    }
+    .articulo__autor-info {
+        text-align: left;
+        padding-top: 50px;
+    }
+    .articulo__autor-descripcion-texto {
+        padding-top: 70px;
+    }
+}
+
+.article {
+    margin-bottom: 58px;
+}
+
+.author {
+    margin-top: 58px;
+}
+*/

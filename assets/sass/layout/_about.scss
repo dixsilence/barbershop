@@ -1,0 +1,41 @@
+    .author {
+        padding-top: 3.75rem;
+        padding-bottom: 3.75rem;
+        border-top: 1px solid $platinum;
+        border-bottom: 1px solid $platinum;
+    }
+    
+    .about {
+        &__titulo {
+            @include playfair__bold;
+            color: $eerieBlack;
+            display: inline-block;
+        }
+        &__rrss {
+            font-family: $roboto;
+            font-weight: $font-weight-light;
+            margin-top: 15px;
+            color: $rudyPink!important;
+             :hover {
+                color: $eerieBlack;
+            }
+        }
+        &__foto {
+            width: 11.25rem;
+            border-radius: 150px;
+        }
+        @media (max-width: 767.98px) {
+            @include mi__centrado;
+            flex-direction: row;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            &__desc {
+                display: none;
+            }
+            &__foto {
+                border-radius: 150px;
+                width: 8.3125rem;
+            }
+        }
+    }

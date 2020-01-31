@@ -1,0 +1,21 @@
+.mi__logo {
+    width: 100px;
+    height: auto;
+}
+
+.mi__navigation {
+    background-color: $eerieBlack;
+}
+
+//Esto es para darle color blanco a los links y hacer hover con otro color//
+nav {
+    .navbar-a {
+        color: $white;
+    }
+     :hover {
+        color: $rudyPink;
+    }
+     :active {
+        color: red;
+    }
+}

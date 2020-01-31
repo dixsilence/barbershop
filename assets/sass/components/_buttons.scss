@@ -1,0 +1,15 @@
+.btn__redes {
+    background-color: $nickel;
+    color: $white;
+    border-radius: 2rem;
+    &:hover {
+        background-color: $lightGray;
+        border: 1px solid $lightGray;
+        color: $white;
+    }
+    &:active {
+        background-color: $nickel !important;
+        border: 1px solid $lightGray !important;
+        color: $white !important;
+    }
+}

@@ -1,0 +1,8 @@
+footer {
+    @include mi__centrado;
+    background-color: $eerieBlack;
+    height: 200px;
+    img {
+        width: 120px;
+    }
+}

@@ -1,0 +1,11 @@
+@mixin mi__centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin playfair__bold {
+    font-family: $playfair;
+    font-weight: $font-weight-bold;
+    font-style: italic;
+}

@@ -1,0 +1,31 @@
+header {
+    color: $white;
+    /*width: 100vw;*/
+    height: 100vh;
+    background-image: url(/05.Sass/barbershop/assets/img/post-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    @include mi__centrado;
+    flex-direction: column;
+    padding: 20px;
+    i {
+        font-size: 50px;
+        margin-top: 100px;
+        position: relative;
+    }
+    h1 {
+        @include playfair__bold;
+        /*font-size: $font-size-xx-large;*/
+        color: $white;
+        filter: text-shadow(5px 3 3.5 rgba(0, 0, 0, 0.18));
+        width: 55%;
+        margin: auto;
+        @media (max-width: 767.98px) {
+            font-size: $font-size-x-large;
+        }
+        @media (min-width: 768px) {
+            font-size: $font-size-xx-large;
+        }
+    }
+}
