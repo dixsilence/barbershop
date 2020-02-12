@@ -15,7 +15,11 @@ nav {
      :hover {
         color: $rudyPink;
     }
-     :active {
+     :focus {
         color: red;
     }
+}
+
+.active__color {
+    color: blue!important;
 }
